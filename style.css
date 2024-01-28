@@ -235,7 +235,7 @@ body {
 @media screen and (max-width: 768px) {
     .section-main{
         
-    max-width: 334px;
+    max-width: 480px;
     }
     .nav-left {
       padding: 8px 8px;  
@@ -257,7 +257,7 @@ body {
     .about-img,
     .about-text {
       width: 100%;  
-      padding: 12px 0;  
+     
     }
     
     .head1-div,
@@ -284,8 +284,15 @@ body {
 
     .section-main{
         
-        max-width: 480px;
+        width: 450px;
         }
+
+
+        .nav-right{
+          display: none;
+        }
+
+        
     .head1-div,
     .head1-line,
     .text-center,
@@ -297,8 +304,13 @@ body {
     .text-12,
     .text-blue,
     .text-input,
-    .text-btn,
-    .footer {
+    .text-btn{
       font-size: 14px; 
+      
+    }
+
+    .footer{
+      font-size: 14px; 
+      width: 480px;
     }
   }
